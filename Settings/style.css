@@ -1,0 +1,94 @@
+.normal_text {
+    font-family: "Noto Serif KR", serif;
+    font-size: 1.5vw;
+    color: white;
+}
+
+.title_text {
+    font-family: "Noto Serif KR", serif;
+    font-size: 2vw;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+
+.main_text {
+    font-family: "Noto Serif KR", serif;
+    font-size: 1.5vw;
+    margin-top: 5vh; 
+    text-align: center;
+    color: rgb(0, 0, 0);
+    line-height: 10vh;
+}
+
+.sub_text {
+    font-family: "Noto Serif KR", serif;
+    font-size: 1vw;
+    margin-top: 0; 
+    text-align: center;
+    color: rgb(0, 0, 0);
+    line-height: 4vh;
+}
+
+.link_text {
+    font-family: "Noto Serif KR", serif;
+    font-size: 1.5vw;
+    margin-top: 5vh; 
+    text-align: center;
+    color: rgb(12, 160, 116);
+    line-height: 10vh;
+}
+
+.hidden_text {
+    font-family: "Noto Serif KR", serif;
+    font-size: 1.5vw;
+    margin-top: 5vh; 
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.info_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.info_grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.vid_con {
+    text-align: center;
+}
+
+.link_text>.main_text {
+    margin-top: 0;
+    line-height: 3vh;
+    font-size: 1.2vw;
+}
+
+.wrap {
+    max-width: 60%; 
+    margin: 50px auto 0; 
+}
+
+.video {
+    position: relative;
+    width: 100%;
+    height: 0; 
+    padding-bottom: 56.25%; 
+}
+
+.video iframe {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+} 
